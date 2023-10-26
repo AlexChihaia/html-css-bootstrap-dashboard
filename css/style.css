@@ -1,0 +1,46 @@
+@import url(typography.css);
+@import url(variables.css);
+
+
+
+
+
+
+
+
+/* HEADER */
+
+header {
+    position: relative;
+    height: 70px;
+}
+
+header>nav {
+    position: fixed;
+    height: 100%;
+}
+
+
+.logo .d-md-none {
+    width: 45px;
+}
+
+.navbar .col i {
+    color: #5b5858;
+    padding: 0 10px
+}
+
+#notifications {
+    color: #ff8f00;
+}
+
+
+
+
+
+
+
+
+
+
+/* MAIN */
