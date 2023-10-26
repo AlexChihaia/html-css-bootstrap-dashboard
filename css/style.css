@@ -20,6 +20,15 @@ header>nav {
     height: 100%;
 }
 
+.input-group span,
+.input-group input {
+    background-color: #e5e5e5;
+}
+
+.input-group input:focus {
+    border: 2px solid #e5e5e5;
+    background-color: #e5e5e5;
+}
 
 .logo .d-md-none {
     width: 45px;
@@ -41,6 +50,93 @@ header>nav {
 
 
 
-
-
 /* MAIN */
+
+.ac-main-container .left-menu {
+    height: calc(100vh - 70px);
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
+}
+
+.ac-main-container .left-menu .element {
+    padding: 7px 14px;
+    padding-left: 24px;
+    list-style: none;
+}
+
+.ac-main-container .left-menu .element i {
+    width: 32px;
+}
+
+.ac-main-container a {
+    text-decoration: none;
+}
+
+
+.ac-main-container main .ac-row .col-12 button i {
+    color: white;
+    font-size: 1rem;
+}
+
+.ac-main-container main .ac-row .col-12 button {
+    width: 40px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+span.ac-padding {
+    padding-right: 20px;
+}
+
+.ac-row {
+    background-color: #1b72e8;
+}
+
+.ac-bg-pill {
+    background-color: #165bba;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+@media screen and (min-width:992px) {
+    .ac-main-container .left-menu {
+        width: 150px;
+    }
+}
