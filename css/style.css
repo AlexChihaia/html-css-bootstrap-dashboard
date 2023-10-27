@@ -10,13 +10,16 @@
 
 /* HEADER */
 
-header {
-    position: relative;
+.ac-nav-container {
     height: 70px;
+    width: 100vw;
+}
+
+header {
+    width: 100%;
 }
 
 header>nav {
-    position: fixed;
     height: 100%;
 }
 
@@ -52,6 +55,14 @@ header>nav {
 
 /* MAIN */
 
+main {
+    background-color: #f8f9fa;
+}
+
+.ac-main-container {
+    height: calc(100vh - 70px);
+}
+
 .ac-main-container .left-menu {
     height: calc(100vh - 70px);
     background-image: url(../img/sidebar-bg.png);
@@ -68,7 +79,7 @@ header>nav {
     width: 32px;
 }
 
-.ac-main-container a {
+.ac-main-container .left-menu a {
     text-decoration: none;
 }
 
@@ -95,6 +106,20 @@ span.ac-padding {
 
 .ac-bg-pill {
     background-color: #165bba;
+}
+
+.ac-img-size-body {
+    width: 32px;
+}
+
+#accordionFlushExample:active {
+    background-color: inherit;
+    color: inherit;
+}
+
+.accordion-item button:focus {
+    border-color: inherit;
+    box-shadow: none;
 }
 
 
